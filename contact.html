@@ -9,6 +9,7 @@
 
 </head>
 <body>
+     
         <nav class="navbar navbar-light" style="background-color: #4aaaa5;">
                 <h1 style="background-color:#4aaaa5;Color:white;">Gil Solis</h1>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,18 +35,31 @@
                         </div>
                 </nav>
             </nav>
-
-            <form>
-                    <div class="border">
+            <div class="border" style="margin:3%;">
+                <form> 
+                    <div class="container">
+                    <h1 style="color:#4aaaa5;">Contact</h1>
+                    
                     <div class="form-group">
-                      <label for="formGroupExampleInput">Example label</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                      <label style="color: #666;" for="formGroupExampleInput">Name</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
                     </div>
                     <div class="form-group">
-                      <label for="formGroupExampleInput2">Another label</label>
-                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                      <label  style="color: #666;" for="formGroupExampleInput2">Email</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
                     </div>
-                  </form>
+                    <div class="form-group">
+                        <label style="color:#666;"for="formGroupExampleInput2">Message</label>
+                        <!-- <textarea type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com"> -->
+                        <textarea class="form-control" id="validationTextarea" placeholder="" rows="10" ></textarea>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Submit" style="background-color:#4aaaa5; color: white; border-color:#4aaaa5;">
+                    <br>
+                    <br>
+                
+                </form>
     </div>
+    
+    <div class="fixed-bottom" style="background-color:#4aaaa5; color:white; text-align: center;">Copyright &copy; 2019</div>
 </body>
 </html>
